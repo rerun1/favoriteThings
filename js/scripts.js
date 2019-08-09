@@ -19,5 +19,10 @@ $(document).ready(function(){
     console.log(userMusicList);
     console.log(favoriteList);
 
+    $(document).ready(function(){
+      $("div").last();
+    });
+
+
   });
 });
