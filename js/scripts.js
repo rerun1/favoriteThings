@@ -1,7 +1,7 @@
 var userArrayFullList = [];
 
 
-var makeArrayFullList =  function(input1, input2, input3, input4, input5, input6, input7, input8, input9){
+var makeArrayFullList =  function(input){
 var array1 = [$("input#userInput1").val(), $("input#userInput2").val(),$("input#userInput3").val()];
 var array2 = [$("input#userInput4").val(), $("input#userInput5").val(),$("input#userInput6").val()];
 var array3 = [$("input#userInput7").val(), $("input#userInput8").val(),$("input#userInput9").val()];
