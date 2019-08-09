@@ -1,0 +1,113 @@
+
+
+@font-face {
+  font-family: 'cantarell';
+  src : url('../fonts/cantarell/Cantarell-Regular.eot');
+  src : url('../fonts/cantarell/Cantarell-Regular.eot?#iefix') format('eot'),
+        url('../fonts/cantarell/Cantarell-Regular.woff2') format('woff2'),
+        url('../fonts/cantarell/Cantarell-Regular.woff') format('woff'),
+        url('../fonts/cantarell/Cantarell-Regular.ttf') format('truetype');
+  font-weight: 400; /* cantarell regular */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'cantarell';
+  src : url('../fonts/cantarell/Cantarell-Oblique.eot');
+  src : url('../fonts/cantarell/Cantarell-Oblique.eot?#iefix') format('eot'),
+        url('../fonts/cantarell/Cantarell-Oblique.woff2') format('woff2'),
+        url('../fonts/cantarell/Cantarell-Oblique.woff') format('woff'),
+        url('../fonts/cantarell/Cantarell-Oblique.ttf') format('truetype');
+  font-weight: 400; /* cantarell regular oblique*/
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'cantarell';
+  src : url('../fonts/cantarell/Cantarell-Bold.eot');
+  src : url('../fonts/cantarell/Cantarell-Bold.eot?#iefix') format('eot'),
+        url('../fonts/cantarell/Cantarell-Bold.woff2') format('woff2'),
+        url('../fonts/cantarell/Cantarell-Bold.woff') format('woff'),
+        url('../fonts/cantarell/Cantarell-Bold.ttf') format('truetype');
+  font-weight: 700; /* cantarell bold */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GoodVibrationsROB-Script';
+  src: url('../fonts/GoodVibrationsROB-Script/GoodVibROBScr.eot');
+  src: url('../fonts/GoodVibrationsROB-Script/GoodVibROBScr.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/GoodVibrationsROB-Script/GoodVibROBScr.woff2') format('woff2'),
+       url('../fonts/GoodVibrationsROB-Script/GoodVibROBScr.woff') format('woff'),
+       url('../fonts/GoodVibrationsROB-Script/GoodVibROBScr.ttf') format('truetype'),
+       url('../fonts/GoodVibrationsROB-Script/GoodVibROBScr.svg#GoodVibrationsROB-Script') format('svg');
+}
+
+.cantarell {
+  font-family: 'Cantarell', Verdana, Geneva, sans-serif;
+  font-variant: normal;
+  line-height: 1.35;
+}
+.cantarellReg {
+  font-style: normal;
+  font-weight: 400;
+}
+.cantarellRegOblique {
+  font-style: italic;
+  font-weight: 400;
+}
+.cantarellBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.cantarellBoldOblique {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.goodVibrationsScript {
+font-family: 'GoodVibrationsROB-Script', serif;
+font-weight: normal;
+font-style: normal;
+}
+body {
+  font-family: 'Cantarell', Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-variant: normal;
+  line-height: 1.35;
+  color: rgba(0, 30, 30, 1.0);
+}
+h1 {
+  font-family: 'GoodVibrationsROB-Script', serif;
+  font-size: 4em;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  color: rgba(0, 60, 60, 1.0);
+  text-align: center;
+  margin:.35em 0;
+}
+input {
+  width: 100%;
+}
+.backgroundShade {
+  background-color: rgba(210, 230, 229, .75);
+}
+
+.container-img {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(210, 230, 229, 1.0);
+  background-image: url("../img/julieAndrews.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom 0px left 0px;
+  background-size: contain;
+}
