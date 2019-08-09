@@ -21,21 +21,39 @@
           <div class="col-8">
             <form id="favorites">
               <div class="form-group">
-                <label for="food">What is one of your favorite foods?</label>
-                <input id="food" type="text">
+                <label for="food">Name three of your favorite foods?</label>
+                <div class="row">
+                  <div class="col-12 form-inline">
+                    <input class="mr-1" id="food1" type="text"><input class="mr-1" id="food2" type="text"><input class="mr-1" id="food3" type="text">
+                  </div>
+                </div>
               </div>
               <div class="form-group">
-                <label for="beverage">What would you like to drink with that?</label>
-                <input id="beverage" type="text">
+                <label for="beverage">Three drinks that go with those foods?</label>
+                <div class="row">
+                  <div class="col-12 form-inline">
+                    <input class="mr-1" id="drink1" type="text"><input class="mr-1" id="drink2" type="text"><input class="mr-1" id="drink3" type="text">
+                  </div>
+                </div>
               </div>
               <div class="form-group">
-                <label for="music">And the right music to set the mood?</label>
-                <input id="music" type="text">
+                <label for="music">And the right types of music to set the mood?</label>
+                <div class="row">
+                  <div class="col-12 form-inline">
+                    <input class="mr-1" id="music1" type="text"><input class="mr-1" id="music2" type="text"><input class="mr-1" id="music3" type="text">
+                  </div>
               </div>
+              <button type="submit" class="btn btn-primary mt-4">List your favorites...</button>
               </form>
             </div>
           </div>
         </div>
+        <div id="list" class="row">
+          <ul id="favoriteList">
+            <li></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>
