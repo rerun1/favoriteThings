@@ -1,28 +1,60 @@
+var userArrayFullList = [];
+
+
+var makeArrayFullList =  function(input1, input2, input3, input4, input5, input6, input7, input8, input9){
+var array1 = [$("input#userInput1").val(), $("input#userInput2").val(),$("input#userInput3").val()];
+var array2 = [$("input#userInput4").val(), $("input#userInput5").val(),$("input#userInput6").val()];
+var array3 = [$("input#userInput7").val(), $("input#userInput8").val(),$("input#userInput9").val()];
+return userArrayFullList = array1.concat(array2, array3).reverse();
+}
+var resetForm = function(){
+  $("input#userInput1").val("");
+  $("input#userInput2").val("");
+  $("input#userInput3").val("");
+  $("input#userInput4").val("");
+  $("input#userInput5").val("");
+  $("input#userInput6").val("");
+  $("input#userInput7").val("");
+  $("input#userInput8").val("");
+  $("input#userInput9").val("");
+}
+
 $(document).ready(function(){
+
+
   $("form#favorites").submit(function(event){
     event.preventDefault();
-    alert("form works");
 
-    var userFood = [$("input#food1").val(), $("input#food2").val(),$("input#food3").val()];
-    var userDrink = [$("input#drink1").val(), $("input#drink2").val(),$("input#drink3").val()];
-    var userMusic = [$("input#music1").val(), $("input#music2").val(),$("input#music3").val()];
+    // $("ul#list").empty();
 
-    var favoriteList = userFood.concat(userDrink, userMusic);
-    var favoriteListOutput = favoriteList.join()
+    makeArrayFullList($("input"));
 
-    var userFoodList = userFood.join(", ");
-    var userDrinkList = userDrink.join(", ");
-    var userMusicList = userMusic.join(", ");
 
-    console.log(userFoodList);
-    console.log(userDrinkList);
-    console.log(userMusicList);
-    console.log(favoriteList);
+    console.log(userArrayFullList);
 
-    $(document).ready(function(){
-      $("div").last();
-    });
 
+    $("ul#list").append("<li>"+userArrayFullList.pop()+"</li>");
+    $("ul#list").append("<li>"+userArrayFullList.pop()+"</li>");
+    $("ul#list").append("<li>"+userArrayFullList.pop()+"</li>");
+    $("ul#list").append("<li>"+userArrayFullList.pop()+"</li>");
+    $("ul#list").append("<li>"+userArrayFullList.pop()+"</li>");
+    $("ul#list").append("<li>"+userArrayFullList.pop()+"</li>");
+    $("ul#list").append("<li>"+userArrayFullList.pop()+"</li>");
+    $("ul#list").append("<li>"+userArrayFullList.pop()+"</li>");
+    $("ul#list").append("<li>"+userArrayFullList.pop()+"</li>");
+
+    resetForm($("form#favorites"));
+
+    $("div#intro").hide();
+    $("div.favoriteList").toggle();
+    $("form#favorites").hide();
+    $("input").removeAttr("placeholder")
 
   });
+
+  $("button#anotherList").click(function(){
+    $("form#favorites").show();
+    $("div.favoriteList").toggle();
+  });
+
 });

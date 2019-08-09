@@ -93,15 +93,24 @@ h1 {
   line-height: 1;
   color: rgba(0, 60, 60, 1.0);
   text-align: center;
-  margin:.35em 0;
+}
+form {
+  padding-left: 1em;
 }
 input {
   width: 30%;
+  padding: 0 .25em .25em .25em;
+}
+ul {
+  margin-top:1em;
+}
+::placeholder {
+  font-size: .8em;
+  font-style: italic;
 }
 .backgroundShade {
   background-color: rgba(210, 230, 229, .75);
 }
-
 .container-img {
   width: 100vw;
   height: 100vh;
@@ -110,4 +119,13 @@ input {
   background-repeat: no-repeat;
   background-position: bottom 0px left 0px;
   background-size: contain;
+  padding:1em;
+}
+.favoriteList {
+  display: none;
+}
+@media screen and (max-width: 550px) {
+  form {
+    padding-left:0;
+  }
 }

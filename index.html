@@ -11,55 +11,54 @@
   </head>
   <body>
     <div class="container-img min-vw-100 min-vh-100">
-      <div class="container backgroundShade">
-        <div class="row">
-          <div class="col-12 pt-3">
-            <h1>A personalized list of your favorite things...</h1>
+      <div class="container-fluid backgroundShade">
+        <div id="intro" class="row justify-content-center">
+          <div class="col">
+            <h1>Maria's favorite things...</h1>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-8">
+          <div class="col favoriteList">
+            <h1>Your favorites...</h1>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4 favoriteList">
+            <ul id="list">
+            </ul>
+            <button id="anotherList" type="button" class="btn btn-primary mt-2">Add to your favorites</button>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col">
             <form id="favorites">
               <div class="form-group">
-                <label for="food">Name three of your favorite foods?</label>
+                <label for="userInput1-3">Favorite foods?</label>
                 <div class="row">
                   <div class="col-12 form-inline">
-                    <input class="mr-1" id="food1" type="text"><input class="mr-1" id="food2" type="text"><input class="mr-1" id="food3" type="text">
+                    <input class="mr-1" id="userInput1" type="text" placeholder="apple strudel (warm)" required><input class="mr-1" id="userInput2" type="text" placeholder="schnitzel" required><input class="mr-1" id="userInput3" type="text" placeholder="noodles" required>
                   </div>
                 </div>
               </div>
               <div class="form-group">
-                <label for="beverage">Three drinks that go with those foods?</label>
+                <label for="input4-6">Animals you love?</label>
                 <div class="row">
                   <div class="col-12 form-inline">
-                    <input class="mr-1" id="drink1" type="text"><input class="mr-1" id="drink2" type="text"><input class="mr-1" id="drink3" type="text">
+                    <input class="mr-1" id="userInput4" type="text" placeholder="whiskers (kitten)" required><input class="mr-1" id="userInput5" type="text" placeholder="ponies (cream colored)" required><input class="mr-1" id="userInput6" type="text" placeholder="geese (wild)" required>
                   </div>
                 </div>
               </div>
               <div class="form-group">
-                <label for="music">And the right types of music to set the mood?</label>
+                <label for="userInput7-9">Other favorites?</label>
                 <div class="row">
                   <div class="col-12 form-inline">
-                    <input class="mr-1" id="music1" type="text"><input class="mr-1" id="music2" type="text"><input class="mr-1" id="music3" type="text">
+                    <input class="mr-1" id="userInput7" type="text" placeholder="bells (doors & sleighs)" required><input class="mr-1" id="userInput8" type="text" placeholder="packages (tied up with string)" required><input class="mr-1" id="userInput9" type="text" placeholder="white dresses (with blue sashes)" required>
                   </div>
               </div>
-              <button type="submit" class="btn btn-primary mt-4">List your favorites...</button>
+              <button type="submit" class="btn btn-primary mt-4 mb-4">Enter your favorites...</button>
               </form>
             </div>
           </div>
-        </div>
-        <div id="list" class="row">
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
         </div>
       </div>
     </div>
