@@ -1,15 +1,5 @@
-JavaScript business logic and user interface logic are separate.
-Variable names are descriptive and use lower camel case (e.g. myVariableExample).
-Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.
-Application implements a for loop and works as expected.
-All previous objectives have been met.
-Project is broken down into "plain English" specs, listed in README.
-Project is in a presentable, portfolio-quality state.
-You are able to discuss the flow of your code and the concepts behind it with an instructor using correct terminology.
-
-# Favorite Things
-#### Forms to Create Arrays
-#### _**by Suzi Rubino — August 8st, 2019**_
+#### Forms with Scripts to Create Arrays from User Input
+#### _**by Suzi Rubino — August 9th, 2019**_
 <br>
 
 ## Description
@@ -21,14 +11,13 @@ A page with a form containing input fields where users may enter several of thei
 <br>
 
 ## Objectives
-- [ ] JavaScript business logic and user interface logic are separate.
-- [ ] Variable names are descriptive and use lower camel case (e.g. myVariableExample).
-- [ ] Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.
+- [X] JavaScript business logic and user interface logic are separate.
+- [X] Variable names are descriptive and use lower camel case (e.g. myVariableExample).
+- [X] Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools.
 - [ ] Application implements a for loop and works as expected.
 All previous objectives have been met.
 - [ ] Project is broken down into "plain English" specs, listed in README.
-- [ ] Project is in a presentable, portfolio-quality state.
-You are able to discuss the flow of your code and the concepts behind it with an instructor using correct terminology.
+- [X] Project is in a presentable, portfolio-quality state.
 - [x] Practice styling with imagery and fonts
 
 <br>
@@ -36,7 +25,7 @@ You are able to discuss the flow of your code and the concepts behind it with an
 ## Current Screenshot for Reference
 <br>
 
-![alt text](https://raw.githubusercontent.com/rerun1/marketplace/master/img/screenShot7-31-19.png)
+![alt text](https://raw.githubusercontent.com/rerun1/favoriteThings/master/img/screenShot8-9-19.png)
 <br>
 <br>
 
